@@ -1,0 +1,612 @@
+[
+    {
+        "query": "chocolate",
+        "metadata": {
+            "total_documents": 62,
+            "filtered_documents": 21
+        },
+        "results": [
+            {
+                "title": "1",
+                "url": "https://web-scraping.dev/product/1",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13",
+                "url": "https://web-scraping.dev/product/13",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/13?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/13?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/13?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/1?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/1?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/1?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25",
+                "url": "https://web-scraping.dev/product/25",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/25?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/25?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/25?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            }
+        ]
+    },
+    {
+        "query": "candy",
+        "metadata": {
+            "total_documents": 62,
+            "filtered_documents": 21
+        },
+        "results": [
+            {
+                "title": "1",
+                "url": "https://web-scraping.dev/product/1",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13",
+                "url": "https://web-scraping.dev/product/13",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/13?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/13?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/13?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/1?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/1?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "1?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/1?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25",
+                "url": "https://web-scraping.dev/product/25",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/25?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/25?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/25?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            },
+            {
+                "title": "25?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/25?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: candy",
+                    "Description match: candy"
+                ]
+            }
+        ]
+    },
+    {
+        "query": "chocolate candyy",
+        "metadata": {
+            "total_documents": 62,
+            "filtered_documents": 6
+        },
+        "results": [
+            {
+                "title": "14",
+                "url": "https://web-scraping.dev/product/14",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            },
+            {
+                "title": "14?Variant=Six Pack",
+                "url": "https://web-scraping.dev/product/14?variant=six-pack",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            },
+            {
+                "title": "2",
+                "url": "https://web-scraping.dev/product/2",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            },
+            {
+                "title": "26?Variant=One",
+                "url": "https://web-scraping.dev/product/26?variant=one",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            },
+            {
+                "title": "26?Variant=Six Pack",
+                "url": "https://web-scraping.dev/product/26?variant=six-pack",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            },
+            {
+                "title": "2?Variant=Six Pack",
+                "url": "https://web-scraping.dev/product/2?variant=six-pack",
+                "description": "Description not available",
+                "score": 6.813997648469824,
+                "matches": [
+                    "Description match: cola"
+                ]
+            }
+        ]
+    },
+    {
+        "query": "chocolate",
+        "metadata": {
+            "total_documents": 62,
+            "filtered_documents": 21
+        },
+        "results": [
+            {
+                "title": "1",
+                "url": "https://web-scraping.dev/product/1",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13",
+                "url": "https://web-scraping.dev/product/13",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Cherry Small",
+                "url": "https://web-scraping.dev/product/13?variant=cherry-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Large",
+                "url": "https://web-scraping.dev/product/13?variant=orange-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Medium",
+                "url": "https://web-scraping.dev/product/13?variant=orange-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "13?Variant=Orange Small",
+                "url": "https://web-scraping.dev/product/13?variant=orange-small",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Large",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-large",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            },
+            {
+                "title": "1?Variant=Cherry Medium",
+                "url": "https://web-scraping.dev/product/1?variant=cherry-medium",
+                "description": "Description not available",
+                "score": 8.600654330063325,
+                "matches": [
+                    "Title match: chocolate",
+                    "Description match: chocolate"
+                ]
+            }
+        ]
+    }
+]
