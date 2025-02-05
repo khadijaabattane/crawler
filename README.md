@@ -111,5 +111,151 @@ python indexer.py
 ### 3️⃣ Verify the Indexes
 The generated JSON files are located in the `indexes/` directory.
 
+
+
+
+
+---
+
+### **🚀 TP3: Search Engine Using Indexing and Ranking**
+
+# 📌 **Search Engine for Indexed Product Data**
+This project is a **fast and efficient search engine** designed to query indexed product data. It supports:
+- **Spelling correction** 📝
+- **Query expansion using synonyms** 🔄
+- **BM25 ranking for relevance** 📊
+- **Parallelized search for speed** ⚡
+- **Query history logging** 🗂️
+- **Auto-suggestions for queries** 💡
+
+---
+
+## **📖 1️⃣ Use Cases & Features Implemented**
+This search engine addresses multiple challenges commonly found in **text-based information retrieval systems**.
+
+| **Feature** | **Problem Solved** | **Solution Implemented** |
+|------------|------------------|----------------------|
+| **Indexing** | Fast document lookup | Created **inverted indexes** for title, description, brand, origin, reviews, and domain |
+| **Tokenization** | Normalize user input | Applied **NLTK stopwords filtering + punctuation removal** |
+| **Spelling Correction** | Handle typos | Used **TextBlob correction** & **Fuzzy Matching** with `rapidfuzz` |
+| **Query Expansion** | Improve recall with synonyms | Used **synonym mapping** (origin-based synonyms from `origin_synonyms.json`) |
+| **Ranking (BM25)** | Prioritize most relevant results | Implemented **precomputed TF-IDF and BM25 scoring** |
+| **Parallel Processing** | Speed up searches | Used **multithreading** (`threading.Thread`) for search execution |
+| **Query Logging** | Maintain search history | Saved **all queries & results** in `query_history.json` |
+| **Auto-suggestions** | Help users with queries | Built a **Trie-based suggestion system** for fast lookup |
+
+---
+
+## **🛠️ 2️⃣ Installation & Setup**
+### **🔹 Install Dependencies**
+This project uses Python 3 and requires some external libraries. Install them using:
+```sh
+pip install nltk textblob rapidfuzz
+```
+
+> 🛠️ **Note**: You may need to download the **NLTK stopwords**:
+```python
+import nltk
+nltk.download('stopwords')
+```
+
+---
+
+## **💡 3️⃣ How It Works**
+### **🔎 Search Process**
+1. **User enters a search query** (e.g., `"choco"`)
+2. **Spelling correction is applied** (e.g., `"chocolate"`)
+3. **Query expansion happens** (if applicable)
+4. **Tokenization removes stopwords** (e.g., `"the best chocolate"` → `["chocolate"]`)
+5. **Parallelized search runs**:
+   - Looks up words in **title, description, brand, origin, and reviews**
+   - Applies **BM25 ranking** to score results
+6. **Results are sorted** by **relevance score**
+7. **Results are displayed in the terminal** & **logged in `query_history.json`**
+
+---
+
+## **🖥️ 4️⃣ Usage**
+### **Run the Search Engine**
+To start the search engine:
+```sh
+python search_engine.py
+```
+You will be prompted to enter a query:
+```
+🔍 Enter your search query: chocolate
+```
+
+### **Example Terminal Output**
+```
+🔎 **Suggestions:** ['chocolate']
+
+🔍 **Final Tokenized Query:** ['chocolate']
+
+🔍 **Search Results:**
+
+📌 **Product:** Box Of Chocolate Candy
+🔗 URL: https://web-scraping.dev/product/1
+⭐ Score: 15.2
+🎯 Matches: Title match: chocolate, Review score: 4.5 (Total reviews: 12)
+
+📌 **Product:** Dark Chocolate Bar
+🔗 URL: https://web-scraping.dev/product/3
+⭐ Score: 12.8
+🎯 Matches: Title match: chocolate, Review score: 4.2 (Total reviews: 8)
+
+✅ Query and results saved to `query_history.json`
+```
+
+---
+
+## **📂 5️⃣ Query History Logging**
+Each search is saved in `query_history.json`:
+```json
+[
+    {
+        "query": "chocolate candy",
+        "metadata": {
+            "total_documents": 156,
+            "filtered_documents": 2
+        },
+        "results": [
+            {
+                "title": "Box of Chocolate Candy",
+                "url": "https://web-scraping.dev/product/1",
+                "description": "Indulge your sweet tooth...",
+                "score": 15.2,
+                "matches": ["Title match: chocolate", "Review score: 4.5"]
+            }
+        ]
+    }
+]
+```
+
+-
+
+
+ 
+
+---
+
+## **📜 8️⃣ Full Project Structure**
+```
+📂 search-engine
+│── 🔹 search_engine.py    
+│── 🔹 title_index.json    
+│── 🔹 description_index.json  
+│── 🔹 reviews_index.json  
+│── 🔹 origin_index.json   
+│── 🔹 brand_index.json    
+│── 🔹 domain_index.json   
+│── 🔹 origin_synonyms.json 
+│── 🔹 query_history.json  
+│── 🔹 README.md           
+```
+
+---
 ## 📝 Authors
 - **Khadija ABATTANE** - ENSAI 3A
+
+
