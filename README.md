@@ -1,4 +1,62 @@
+# Web Indexing - TPs
+# Web Indexing - TP1
+
+# Web Crawler - TP1 ENSAI 2025 🕸️
+
+Ce projet implémente un crawler web en Python. Le script explore des pages web, extrait des informations clés et priorise certaines pages selon des critères définis.
+
+
+## ✨ Fonctionnalités
+
+- **Extraction des données** :
+  - Titre de la page.
+  - Premier paragraphe.
+  - Liste des liens internes.
+- **Priorisation des URLs** :
+  - Priorise les liens contenant le mot-clé `product`.
+- **Limitation du crawling** :
+  - Arrêt après avoir visité 50 pages.
+- **Respect de robots.txt** :
+  - Vérifie les permissions avant de crawler une URL.
+- **Stockage des résultats** :
+  - Les données sont sauvegardées dans un fichier JSON structuré.
+
+
+## 🛠️ Installation
+
+1. **Cloner le dépôt** :
+   ```bash
+   git clone https://github.com/khadijaabattane/crawler.git
+   cd crawler
+   ```
+
+2. **Installer les dépendances** :
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Exécuter le script** :
+   ```bash
+   python crawler.py
+   ```
+
+
+## 📂 Structure du projet
+
+```plaintext
+├── crawler.py   
+├── results.json         
+├── requirements.txt     
+├── README.md            
+```
+
+
+## 🖥️ Pré-requis
+
+- Bibliothèques : `requests`, `beautifulsoup4`
+
 # Web Indexing - TP2
+
 
 ## 📌 Project Description
 This project aims to implement an **inverted indexing system** for a set of web products, allowing fast searches on product titles, descriptions, reviews, and features.
