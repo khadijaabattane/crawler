@@ -1,7 +1,6 @@
 # Web Indexing - TPs
-# Web Indexing - TP1
 
-# Web Crawler - TP1 ENSAI 2025 🕸️
+## Web Crawler - TP1 ENSAI 2025 🕸️
 
 Ce projet implémente un crawler web en Python. Le script explore des pages web, extrait des informations clés et priorise certaines pages selon des critères définis.
 
@@ -54,6 +53,7 @@ Ce projet implémente un crawler web en Python. Le script explore des pages web,
 ## 🖥️ Pré-requis
 
 - Bibliothèques : `requests`, `beautifulsoup4`
+
 
 # Web Indexing - TP2
 
