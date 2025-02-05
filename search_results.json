@@ -1,65 +1,65 @@
 {
     "total_documents": 62,
-    "filtered_documents": 14,
+    "filtered_documents": 21,
     "results": [
         {
-            "title": "11",
-            "url": "https://web-scraping.dev/product/11",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/1",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "11?Variant=Black40",
-            "url": "https://web-scraping.dev/product/11?variant=black40",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13",
+            "description": "box",
             "score": 18.5
         },
         {
-            "title": "11?Variant=Black41",
-            "url": "https://web-scraping.dev/product/11?variant=black41",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=cherry-large",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "11?Variant=Black42",
-            "url": "https://web-scraping.dev/product/11?variant=black42",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=cherry-medium",
+            "description": "box",
             "score": 18.5
         },
         {
-            "title": "11?Variant=White40",
-            "url": "https://web-scraping.dev/product/11?variant=white40",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=cherry-small",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "11?Variant=White41",
-            "url": "https://web-scraping.dev/product/11?variant=white41",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=orange-large",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "11?Variant=White42",
-            "url": "https://web-scraping.dev/product/11?variant=white42",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=orange-medium",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "23",
-            "url": "https://web-scraping.dev/product/23",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/13?variant=orange-small",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "23?Variant=Black40",
-            "url": "https://web-scraping.dev/product/23?variant=black40",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/1?variant=cherry-large",
+            "description": "whether",
             "score": 18.5
         },
         {
-            "title": "23?Variant=Black41",
-            "url": "https://web-scraping.dev/product/23?variant=black41",
-            "description": "Description not available",
+            "title": "Box",
+            "url": "https://web-scraping.dev/product/1?variant=cherry-medium",
+            "description": "whether",
             "score": 18.5
         }
     ]
