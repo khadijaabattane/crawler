@@ -53,10 +53,6 @@ python indexer.py
 ### 3️⃣ Verify the Indexes
 The generated JSON files are located in the `indexes/` directory.
 
-## 🎁 Bonus Features (if added)
-- **Performance optimization** (e.g., using `defaultdict` to prevent `KeyError`)
-- **Stopword filtering** (automatically removes irrelevant words)
-
 ## 📝 Authors
 - **Khadija ABATTANE** - ENSAI 3A
 
