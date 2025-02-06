@@ -233,7 +233,7 @@ Results are saved in a JSON format with the following structure:
 }
 ```
 
-### 2️⃣ Execute the Script
+### Execute the Script
 ```bash
 python search_engine.py
 ```
