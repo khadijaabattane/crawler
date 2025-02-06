@@ -1,0 +1,270 @@
+{
+    "metadata": {
+        "query": "Running Shoes for Men",
+        "timestamp": "2025-02-06T19:47:06.424249",
+        "total_documents": 156,
+        "filtered_documents": 20
+    },
+    "results": [
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/21",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/9?variant=10",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/21?variant=12",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/9?variant=12",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/21?variant=11",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/21?variant=10",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/21?variant=9",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/9?variant=11",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/9?variant=9",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Running Shoes for Men",
+            "url": "https://web-scraping.dev/product/9",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "scores": {
+                "bm25_score": 5.196228739055499,
+                "exact_match_score": 2.0,
+                "title_match_score": 0.6000000000000001,
+                "review_score": 0.528,
+                "final_score": 8.3242287390555
+            },
+            "score": 8.324
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/10?variant=red-6",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/22?variant=blue-6",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/22?variant=blue-5",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/10",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/10?variant=red-5",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/10?variant=blue-5",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/22?variant=red-5",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/22?variant=red-6",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/10?variant=blue-6",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        },
+        {
+            "title": "Kids' Light-Up Sneakers",
+            "url": "https://web-scraping.dev/product/22",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "scores": {
+                "bm25_score": 1.2959123058704438,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.528,
+                "final_score": 1.8239123058704438
+            },
+            "score": 1.824
+        }
+    ]
+}

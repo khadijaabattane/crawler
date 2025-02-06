@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "query": "Reusable Stainless Steel Water Bottle",
+        "timestamp": "2025-02-06T19:47:06.427675",
+        "total_documents": 156,
+        "filtered_documents": 4
+    },
+    "results": [
+        {
+            "title": "Blue Energy Potion",
+            "url": "https://web-scraping.dev/product/5?variant=one",
+            "description": "Ignite your gaming sessions with our 'Blue Energy Potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!",
+            "scores": {
+                "bm25_score": 2.306602862709113,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.564,
+                "final_score": 2.870602862709113
+            },
+            "score": 2.871
+        },
+        {
+            "title": "Blue Energy Potion",
+            "url": "https://web-scraping.dev/product/5?variant=six-pack",
+            "description": "Ignite your gaming sessions with our 'Blue Energy Potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!",
+            "scores": {
+                "bm25_score": 2.306602862709113,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.564,
+                "final_score": 2.870602862709113
+            },
+            "score": 2.871
+        },
+        {
+            "title": "Blue Energy Potion",
+            "url": "https://web-scraping.dev/product/5",
+            "description": "Ignite your gaming sessions with our 'Blue Energy Potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!",
+            "scores": {
+                "bm25_score": 2.306602862709113,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.564,
+                "final_score": 2.870602862709113
+            },
+            "score": 2.871
+        },
+        {
+            "title": "Blue Energy Potion",
+            "url": "https://web-scraping.dev/product/17?variant=one",
+            "description": "Ignite your gaming sessions with our 'Blue Energy Potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!",
+            "scores": {
+                "bm25_score": 2.306602862709113,
+                "exact_match_score": 0,
+                "title_match_score": 0.0,
+                "review_score": 0.564,
+                "final_score": 2.870602862709113
+            },
+            "score": 2.871
+        }
+    ]
+}
