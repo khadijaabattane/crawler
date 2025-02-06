@@ -118,7 +118,7 @@ class BM25Ranker:
         doc_text = f"{doc.get('title', '')} {doc.get('description', '')}"
         doc_tokens = TextProcessor.tokenize(doc_text)
 
-        avg_doc_length = 300  # Approximate average document length
+        avg_doc_length = 300  
         doc_length = len(doc_tokens)
 
         for token in query_tokens:
