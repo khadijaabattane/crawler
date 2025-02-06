@@ -217,9 +217,6 @@ The following **test queries** were selected to evaluate the robustness and accu
 7. **"American Made Products"** 🇺🇸  
    *Purpose*: Verifies synonym expansion for geographic terms (e.g., "USA", "United States").
 
-### 🔢 Result Analysis
-- **Review the ranking** of returned documents.
-- **Adjust weights and parameters** in the ranking algorithm to optimize results.
 
 ### 📃 Saving Results
 Results are saved in a JSON format with the following structure:
