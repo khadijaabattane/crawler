@@ -113,24 +113,126 @@ The generated JSON files are located in the `indexes/` directory.
 
 
 
-# 🔍 Search Engine for Indexed Products
+# Search Engine for Product Indexing 🔍
 
-This project is a **text-based search engine** that retrieves and ranks products using **inverted indexes**. It supports **query expansion, ranking based on relevance, and search history logging.**  
+## Overview
+This project is a **product search engine** that leverages multiple indexing techniques and ranking algorithms to deliver relevant search results. It includes:
 
-## 🚀 Features
-- ✅ **Tokenization & Stopword Removal** using NLTK  
-- ✅ **Query Expansion with Synonyms** (for product origin)  
-- ✅ **Filters & Ranking based on**:
-  - Title matches (+5 points)
-  - Description matches (+3 points)
-  - Brand & Origin matches (+4 points)
-  - Review score & total reviews  
-- ✅ **Search History Logging** (`search_history.json`)  
-- ✅ **Saves Results in JSON** (`search_results.json`)  
+- **Index Loading**: Loading product data and multiple indexes (brand, description, title, etc.).
+- **Text Processing**: Tokenization, stopword removal, and synonym expansion.
+- **Document Filtering**: Filtering documents based on token presence.
+- **Ranking**: BM25 ranking algorithm, exact match scoring, and review-based ranking.
+- **Testing & Optimization**: Query testing, result analysis, and parameter adjustment.
 
 ---
 
-## 📂 **Project Structure**
+## 1. 📂 **Data Loading & Preparation** 
+
+### 📁 Loading Indexes
+The **`IndexLoader`** class loads all required index files from the specified directory:
+
+- `brand_index.json`
+- `description_index.json`
+- `domain_index.json`
+- `origin_index.json`
+- `origin_synonyms.json`
+- `reviews_index.json`
+- `title_index.json`
+
+### 📖 Text Tokenization
+Implemented using **regex** and the **NLTK stopwords list**. The `TextProcessor.tokenize()` function:
+
+- Converts text to lowercase.
+- Removes stopwords (using NLTK).
+- Keeps only alphabetic tokens.
+
+### 📅 Synonym Expansion
+The `expand_with_synonyms()` method expands query tokens using `origin_synonyms.json`, allowing broader search capabilities (e.g., "USA" expands to "United States", "America").
+
+---
+
+## 2. 🔢 **Document Filtering** 
+
+### 🔎 Query Processing
+1. **Tokenization**: Splits the query into tokens.
+2. **Normalization**: Converts tokens to lowercase and removes stopwords.
+3. **Synonym Expansion**: Expands tokens using the synonym dictionary.
+
+### 🔍 Filtering Documents
+The **`DocumentFilter`** class filters documents based on query tokens:
+
+- **`filter_any_token()`**: Returns documents that contain **at least one** query token.
+- **`filter_all_tokens()`**: Returns documents that contain **all** query tokens.
+
+*Note*: Stopwords are excluded from filtering.
+
+---
+
+## 3. 🔢 **Ranking** 
+
+### 🔄 Analyzing Relevant Signals
+
+1. **BM25 Score**: Measures term frequency-inverse document frequency relevance.
+2. **Exact Match**: Provides a score boost if the query exactly matches a product title or brand.
+3. **Review Score**: Based on product ratings and number of reviews.
+4. **Title Match**: Additional weight if query tokens appear in the product title.
+
+### 📊 Ranking Algorithm
+Implemented in the **`BM25Ranker`** class:
+
+- **`compute_bm25_score()`**: Calculates BM25 for each document.
+- **`compute_final_score()`**: Combines BM25, exact match, review scores, and title matches to produce a final ranking score.
+
+**Scoring Weights**:
+- BM25: 40%
+- Exact Match: Fixed bonus of 2.0
+- Review Score: 30%
+- Title Match: 20%
+
+---
+
+## 4. 🔧 **Testing & Optimization** 
+
+### 📄 Test Queries
+Sample queries for testing the search engine:
+
+- "**Box of Chocolate Candy**"
+- "**Video Potions**"
+- "**Gaming Sessions**"
+- "**Stainless Steel Water Bottle**"
+
+### 🔢 Result Analysis
+- **Review the ranking** of returned documents.
+- **Adjust weights and parameters** in the ranking algorithm to optimize results.
+
+### 📃 Saving Results
+Results are saved in a JSON format with the following structure:
+
+```json
+{
+  "metadata": {
+    "query": "Box of Chocolate Candy",
+    "timestamp": "2025-02-06T12:00:00Z",
+    "total_documents": 100,
+    "filtered_documents": 10
+  },
+  "results": [
+    {
+      "title": "Box of Chocolate Candy",
+      "url": "https://web-scraping.dev/product/1",
+      "description": "Delicious assorted chocolate candies perfect for gifting.",
+      "scores": {
+        "bm25_score": 1.2,
+        "exact_match_score": 2.0,
+        "review_score": 0.9,
+        "final_score": 4.1
+      },
+      "score": 4.1
+    }
+  ]
+}
+```
+
 
 
 
