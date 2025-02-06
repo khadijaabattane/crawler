@@ -194,12 +194,28 @@ Implemented in the **`BM25Ranker`** class:
 ## 4. 🔧 **Testing & Optimization** 
 
 ### 📄 Test Queries
-Sample queries for testing the search engine:
+The following **test queries** were selected to evaluate the robustness and accuracy of the search engine across different product categories and use cases:
 
-- "**Box of Chocolate Candy**"
-- "**Video Potions**"
-- "**Gaming Sessions**"
-- "**Stainless Steel Water Bottle**"
+1. **"Box of Chocolate Candy"** 🍫  
+   *Purpose*: Tests the engine's ability to handle exact matches and popular food-related products.
+
+2. **"Organic Coffee Beans"** ☕  
+   *Purpose*: Evaluates how well the engine identifies organic products.
+
+3. **"Black Cotton T-shirt"** 👕  
+   *Purpose*: Tests multi-attribute searches (color + material + product type).
+
+4. **"Running Shoes for Men"** 🏊️  
+   *Purpose*: Checks filtering based on product type and target audience.
+
+5. **"Gaming Laptop with RGB Keyboard"** 🖥️  
+   *Purpose*: Evaluates the ability to handle detailed product specifications.
+
+6. **"Reusable Stainless Steel Water Bottle"** 🚰  
+   *Purpose*: Tests for eco-friendly household items and material-specific queries.
+
+7. **"American Made Products"** 🇺🇸  
+   *Purpose*: Verifies synonym expansion for geographic terms (e.g., "USA", "United States").
 
 ### 🔢 Result Analysis
 - **Review the ranking** of returned documents.

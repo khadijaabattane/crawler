@@ -24,15 +24,15 @@ class IndexLoader:
         Returns a dictionary with index names as keys and their data as values.
         """
         index_files = [
-            "brand_index.json",
-            "description_index.json",
-            "domain_index.json",
-            "origin_index.json",
-            "origin_synonyms.json",
-            "reviews_index.json",
-            "title_index.json"
+            "indexes_fournis/brand_index.json",
+            "indexes_fournis/description_index.json",
+            "indexes_fournis/domain_index.json",
+            "indexes_fournis/origin_index.json",
+            "indexes_fournis/origin_synonyms.json",
+            "indexes_fournis/reviews_index.json",
+            "indexes_fournis/title_index.json"
         ]
-        return {file.replace(".json", ""): self.load_file(file) for file in index_files}
+        return {os.path.basename(file).replace(".json", ""): self.load_file(file) for file in index_files}
 
     def load_file(self, filename: str) -> dict:
         """
@@ -47,7 +47,7 @@ class IndexLoader:
         Each line in the file represents a product.
         """
         products = {}
-        with open(os.path.join(self.index_path, "products.jsonl"), "r") as f:
+        with open(os.path.join(self.index_path, "indexes_fournis/products.jsonl"), "r") as f:
             for line in f:
                 product = json.loads(line)
                 products[product["url"]] = product
@@ -188,9 +188,12 @@ if __name__ == "__main__":
     # 📄 Test queries to evaluate the search engine
     test_queries = [
         "Box of Chocolate Candy",
-        "Video Potions",
-        "Gaming Sessions",
-        "Stainless Steel Water Bottle"
+        "Organic Coffee Beans",
+        "Black Cotton T-shirt",
+        "Running Shoes for Men",
+        "Gaming Laptop with RGB Keyboard",
+        "Reusable Stainless Steel Water Bottle",
+        "American Made Products",
     ]
 
     # Process each query
