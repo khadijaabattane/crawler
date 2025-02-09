@@ -140,7 +140,7 @@ The **`IndexLoader`** class loads all required index files from the specified di
 - `title_index.json`
 
 ### 📖 Text Tokenization
-Implemented using **regex** and the **NLTK stopwords list**. The `TextProcessor.tokenize()` function:
+The `TextProcessor.tokenize()` function:
 
 - Converts text to lowercase.
 - Removes stopwords (using NLTK).
@@ -183,15 +183,10 @@ Implemented in the **`BM25Ranker`** class:
 - **`compute_bm25_score()`**: Calculates BM25 for each document.
 - **`compute_final_score()`**: Combines BM25, exact match, review scores, and title matches to produce a final ranking score.
 
-**Scoring Weights**:
-- BM25: 40%
-- Exact Match: Fixed bonus of 2.0
-- Review Score: 30%
-- Title Match: 20%
 
 ---
 
-## 4. 🔧 **Testing & Optimization** 
+## 4. 🔧 **Testing** 
 
 ### 📄 Test Queries
 The following **test queries** were selected to evaluate the robustness and accuracy of the search engine across different product categories and use cases:
